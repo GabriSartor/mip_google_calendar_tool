@@ -69,6 +69,7 @@ def main():
             e = Event.createFromSeries(df.iloc[i])
             try:
                 request = service.events().insert(calendarId=cal['id'], body=e.body)
+#                print(request)
                 response = request.execute()
             except HttpError as e:
                 print('Error response status code : {0}, reason : {1}'.format(e.resp.status, e.error_details))
