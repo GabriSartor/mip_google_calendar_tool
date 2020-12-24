@@ -1,4 +1,4 @@
-# MIP: 
+# MIP - Google Calendar Tool: 
  This is a simple tool to convert csv tables (from MIP pdf calendar format) in Google Calendar events
  
 # Requirements
